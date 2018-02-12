@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700&subset=latin-ext');
+
+body {
+    font-size: 15px;
+    background-color: #0f0f0f;
+    color: white;
+}
+
+button {
+    background: #ffc600;
+    border: 0;
+    padding: 10px 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    grid-area: hero;
+    grid-gap: 20px;
+}
+
+.top {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: "hero hero";
+}
+
+.hero{
+    grid-area: hero;
+    min-height: 600px;
+    background: #0f0f0f url(img/baner12.png);
+    background-size: cover;
+    background-position: bottom right;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.hero > * {
+
+    padding: 5px;
+}
+
+.menu ul {
+    display: grid;
+    grid-gap: 10px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+ .menu a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    text-transform: lowercase;
+    font-size: 20px;
+     margin-top: -170%;
+     font-family: 'Inconsolata', monospace;
+     font-weight: bold;
+     color: white;
+}
+
+[aria-controls="menu-list"] {
+    display: none;
+}
+
+.hero h1{
+    margin-left: 5%;
+    font-family: 'Inconsolata', monospace;
+
+}
+
+.starting{
+    margin-top: 10%;
+
+}
+.galleria{ max-width: 700px; height: 400px; background: #0f0f0f }
+div.galleria-image{
+
+}
+
+div.galleria-container.notouch.galleria-theme-classic{
+    background: #0f0f0f;
+    width: 850px;
+    height: 500px;
+    margin-left: 30%;
+}
+/*clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);*/

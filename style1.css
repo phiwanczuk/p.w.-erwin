@@ -3,11 +3,11 @@
 body {
     font-size: 15px;
     background-color: #0f0f0f;
-    color: white;
+    color: #FBEA1B;
 }
 
 button {
-    background: #ffc600;
+    background: #FBEA1B;
     border: 0;
     padding: 10px 20px;
 }
@@ -90,4 +90,11 @@ div.galleria-container.notouch.galleria-theme-classic{
     height: 500px;
     margin-left: 30%;
 }
-/*clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);*/
+
+.offer {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+

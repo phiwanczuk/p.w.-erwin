@@ -55,33 +55,34 @@
         </ul>
     </nav>
     <section class="offer">
-        <div class="tyres about">
-            <img src="img/opony1.png"
-                 alt=''
-                 class="opony">
+        <div class="offers">
+            <div class="tyres about">
+                <img src="img/opony1.png"
+                     alt=''
+                     class="opony">
+            </div>
+            <div class="info about">
+                <p> JESTEŚMY PRĘŻNIE ROZWIJAJĄCĄ SIĘ FIRMĄ ZAJMUJĄCĄ SIĘ PIASKOWANIEM ELEMENTÓW STALOWYCH I ALUMINIOWYCH
+                    ORAZ KOMPLEKSOWĄ RENOWACJĄ FELG. NASZYMI NAJWIĘKSZYMI PLUSAMI JEST JAKOŚĆ WYKONYWANYCH USŁUG ORAZ
+                    INDYWIDUALNE PODEJŚCIE DO KLIENTA PRZY JEDNOCZEŚNIE SZYBKIM CZASIE REALIZACJI .
+                </p>
+
+                <h2>W NASZEJ OFERCIE MAMY :</h2>
+
+
+                <ul>
+                    <li>PIASKOWANIE</li>
+                    <li>MALOWANIE PROSZKOWE</li>
+                    <li>SPAWANIE ALUMINIUM</li>
+                    <li>AKCESORIA DO FELG</li>
+                    <li>OPONY NOWE I UŻYWANE</li>
+                    <li>FELGI NOWE I UŻYWANE</li>
+                </ul>
+
+                <h2>ZAPRASZAMY !</h2>
+
+            </div>
         </div>
-        <div class="info about">
-            <p> JESTEŚMY PRĘŻNIE ROZWIJAJĄCĄ SIĘ FIRMĄ ZAJMUJĄCĄ SIĘ PIASKOWANIEM ELEMENTÓW STALOWYCH I ALUMINIOWYCH
-                ORAZ KOMPLEKSOWĄ RENOWACJĄ FELG. NASZYMI NAJWIĘKSZYMI PLUSAMI JEST JAKOŚĆ WYKONYWANYCH USŁUG ORAZ
-                INDYWIDUALNE PODEJŚCIE DO KLIENTA PRZY JEDNOCZEŚNIE SZYBKIM CZASIE REALIZACJI .
-            </p>
-
-            <h2>W NASZEJ OFERCIE MAMY :</h2>
-
-
-            <ul>
-                <li>PIASKOWANIE</li>
-                <li>MALOWANIE PROSZKOWE</li>
-                <li>SPAWANIE ALUMINIUM</li>
-                <li>AKCESORIA DO FELG</li>
-                <li>OPONY NOWE I UŻYWANE</li>
-                <li>FELGI NOWE I UŻYWANE</li>
-            </ul>
-
-            <h2>ZAPRASZAMY !</h2>
-
-        </div>
-
     </section>
     <section class="avant">
         <div class="avant-bg">
@@ -295,40 +296,67 @@
 
     <section class="features">
         <h1>Kontakt</h1>
-        <h3>My Google Maps Demo</h3>
-        <div id="map"></div>
-    </section>
-    <section class="contact">
-        <form id="contact-form">
-            <div class="form-group center-block">
-                <label for="inputName">Name</label>
-                <input type="text" class="form-control contact-input" id="inputName" placeholder="Name" name="name">
+        <div class="contacts">
+            <div class="contact-data">
+                <h2>Warsztat</h2>
+                <p>
+                    P.W. ERWIN <br> ul.Rejowiecka 183 <br> 22-100 Chełm <br> tel. 532-288-820
+                </p>
             </div>
-            <div class="form-group center-block">
-                <label for="inputEmail">Email</label>
-                <input type="email" class="form-control contact-input" id="inputEmail" placeholder="Email" name="email">
-            </div>
-            <div class="form-group center-block">
-                <label for="inputMessage">Message</label>
-                <textarea id="inputMessage" class="form-control contact-input" rows="3" placeholder="Your Message" name="message"></textarea>
-            </div>
-            <input type="text" name="_gotcha" class="display-none">
-            <div class="text-center">
-                <button class="btn btn-default" type="submit" id="email-submit-btn" value="Send">
-                    Submit
-                </button>
-            </div>
-            <span></span>
-        </form>
-    </section>
+            <div class="contact-map">
+                <form id="contact-form">
+                    <div class="form-group center-block">
+                        <label for="inputName"></label>
+                        <input type="text"
+                               class="form-control contact-input"
+                               id="inputName"
+                               placeholder="Imie i nazwisko"
+                               name="name">
+                    </div>
+                    <div class="form-group center-block">
+                        <label for="inputEmail"></label>
+                        <input type="email"
+                               class="form-control contact-input"
+                               id="inputEmail"
+                               placeholder="Email"
+                               name="email">
+                    </div>
+                    <div class="form-group center-block">
+                        <label for="inputMessage"></label>
+                        <textarea id="inputMessage"
+                                  class="form-control contact-input"
+                                  rows="3"
+                                  placeholder="Twoja wiadomość"
+                                  name="message"></textarea>
+                    </div>
+                    <input type="text"
+                           name="_gotcha"
+                           class="display-none">
+                    <div class="text-center">
+                        <button class="btn btn-default"
+                                type="submit"
+                                id="email-submit-btn"
+                                value="Send">
+                            Wyślij
+                        </button>
+                    </div>
 
+                </form>
+            </div>
+        </div>
+        <h3>Mapa dojazdu</h3>
+        <div id="map"></div>
+
+    </section>
+    <footer>
+    </footer>
 </div>
 <script>
 
-    $(document).ready(function() {
-        $('#contact-form').submit(function(e) {
-            var name    = document.getElementById('inputName');
-            var email   = document.getElementById('inputEmail');
+    $(document).ready(function () {
+        $('#contact-form').submit(function (e) {
+            var name = document.getElementById('inputName');
+            var email = document.getElementById('inputEmail');
             var message = document.getElementById('inputMessage');
 
             if (!name.value || !email.value || !message.value) {
@@ -351,9 +379,6 @@
     });
 
 
-
-
-
     (function () {
         Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
         Galleria.run('.galleria');
@@ -372,7 +397,8 @@
     }
 
 </script>
-<script async defer
+<script async
+        defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBaxaEYdLCd2n-eqHTaqyrY_SMzoMhQU8&callback=initMap">
 </script>
 <a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by Macrovector -

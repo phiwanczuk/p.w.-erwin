@@ -343,3 +343,16 @@ form#contact-form{
     margin-top: 6%;
     position: absolute;
 }
+.contact > h1{
+    visibility: hidden;
+}
+.contact-data{
+    margin-left: 20%;
+}
+.contact-data p{
+    font-size: 2em;
+}
+.contact-data h1{
+    font-size: 3em;
+    margin-left: 5.5%;
+}

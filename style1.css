@@ -41,7 +41,7 @@ img {
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    clip-path: polygon(0 0, 100% 0, 100% 94%, 0 100%);
+
 
 }
 
@@ -64,13 +64,31 @@ img {
     text-align: center;
     text-transform: lowercase;
     font-size: 17px;
-     margin-top: -252%;
+     margin-top: 5%;
      font-weight: bold;
      color: white;
 }
+ .menu a:hover{
+     border: 4px solid white;
+     border-radius: 5px;
+ }
 
+
+ .original{
+     margin-top: -23%;
+ }
+nav.menu.cloned{
+    background: rgba(0,0,0,0.6);
+}
+.menu {
+    background:transparent;
+    color:#fff;
+    letter-spacing:1px;
+    width:100%;
+}
 [aria-controls="menu-list"] {
     display: none;
+    margin-top: 40%;
 }
 
 .hero h1{
@@ -120,7 +138,7 @@ li.dest, li.weld, li.time{
 
 }
 .gallery{
-    clip-path: polygon(0 6%, 100% 0, 100% 94%, 0 100%);   
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
     background-color: #171B1E;
 }
 
@@ -173,7 +191,7 @@ div.galleria-container.notouch.galleria-theme-classic{
     background-size: cover;
     background-position: bottom right;
     background-color: #122b40;
-    clip-path: polygon(0 6%, 100% 0, 100% 94%, 0 100%);   
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
 }
 .dark{
     background-color: rgba(0,0,0,0.8);

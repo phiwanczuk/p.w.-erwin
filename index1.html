@@ -361,7 +361,7 @@
 
             if (!name.value || !email.value || !message.value) {
                 console.log(alert);
-                alert("Please check your entries");
+                alert("Wypełnij wszystkie pola!");
 
                 return false;
             } else {
@@ -373,7 +373,7 @@
                 });
                 e.preventDefault();
                 $(this).get(0).reset();
-                alert("Message sent");
+                alert("Wiadomość wysłana!");
             }
         });
     });

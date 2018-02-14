@@ -99,6 +99,22 @@ li.renov, li.paint{
 li.dest, li.weld, li.time{
     margin-bottom: 25px;
 }
+
+.truck-dsc ul{
+    margin-right: 100px;
+}
+
+.truck-dsc ul li{
+    margin-bottom: 25px;
+    list-style: none;
+    font-size: 1.2em;
+}
+.truck h1{
+    visibility: hidden;
+}
+.truck-pic img{
+    margin-left: 40px;
+}
 .starting{
     margin-top: 10%;
 
@@ -178,11 +194,22 @@ div.galleria-container.notouch.galleria-theme-classic{
 }
 table.steelBlueCols {
     border: 4px solid whitesmoke;
-    background-color: #555555;
     width: 400px;
     text-align: center;
-    border-collapse: collapse;
+    background-color: #000000;
+    border-collapse: unset;
+    margin-left: 20%;
 }
+.main h3{
+    margin-left: 20%;
+}
+.secondTable h3{
+    margin-left: 20%;
+}
+.secondTable h4{
+    margin-left: 20%;
+}
+
 table.steelBlueCols td, table.steelBlueCols th {
     border: 1px solid #555555;
     padding: 5px 10px;
@@ -231,11 +258,6 @@ table.steelBlueCols tfoot .links a{
 .top-table{
     margin-bottom: 10%;
 }
-table.steelBlueCols{
-    background-color: #000000;
-    border-collapse: unset;
-    margin-left: 15%;
-}
 table th{
     text-align: center;
 }
@@ -244,7 +266,7 @@ table.steelBlueCols thead th{
 }
 #map {
     height: 400px;
-    margin-top: 10%;
+    margin-top: 5%;
     width: 100%;
 
 }

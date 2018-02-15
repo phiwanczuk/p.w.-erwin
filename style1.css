@@ -399,15 +399,29 @@ form#contact-form{
     border:black;
 }
 .ctas{
-    margin-top: 40%;
+    position: absolute;
+    top: 20%;
+
 }
 .cta {
     background: url('img/power.png') no-repeat;
     transition: 300ms all ease-in;
     cursor: pointer;
+    height: 64px;
+    width: 64px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .cta:hover{
     background: url('img/power2.png') no-repeat;
 }
 
+.cta-name{
+    position:absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

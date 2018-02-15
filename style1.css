@@ -91,6 +91,13 @@ a:active {
 nav.menu.cloned{
     background: rgba(0,0,0,0.6);
     border-radius: 5px;
+    position: fixed;
+    top: 0px;
+    margin-top: -18px !important;
+    z-index: 500;
+    left: 58px;
+    width: 1186px;
+    height: 68px !important;
 }
 .menu {
     background:transparent;
@@ -400,7 +407,9 @@ form#contact-form{
 }
 .ctas{
     position: absolute;
-    top: 20%;
+    top: 42%;
+    left: 7%;
+
 
 }
 .cta {
@@ -424,4 +433,10 @@ form#contact-form{
     top: 60%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+.tel{
+    border: 2px solid;
+    padding: 1px;
+    border-radius: 5px;
+
 }

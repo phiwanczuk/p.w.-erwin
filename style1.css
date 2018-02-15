@@ -67,18 +67,30 @@ img {
      margin-top: 5%;
      font-weight: bold;
      color: white;
+     transition: 300ms all ease-in;
+     height: 30px;
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     border-radius: 5px;
+
 }
  .menu a:hover{
-     border: 4px solid white;
-     border-radius: 5px;
- }
 
+     border-radius: 5px;
+     background-color: white;
+     color: #000;
+     height: 30px;
+ }
+a:active {
+    background-color: yellow;
+}
 
  .original{
      margin-top: -23%;
  }
 nav.menu.cloned{
     background: rgba(0,0,0,0.6);
+    border-radius: 5px;
 }
 .menu {
     background:transparent;
@@ -378,3 +390,24 @@ form#contact-form{
 .fireblaster img{
     margin-top: 13%;
 }
+.write{
+    border: 1px solid white;
+    border-radius: 5px 5px 5px 1px;
+    color: black
+}
+.write:hover{
+    border:black;
+}
+.ctas{
+    margin-top: 40%;
+}
+.cta {
+    background: url('img/power.png') no-repeat;
+    transition: 300ms all ease-in;
+    cursor: pointer;
+}
+
+.cta:hover{
+    background: url('img/power2.png') no-repeat;
+}
+

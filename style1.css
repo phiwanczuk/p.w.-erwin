@@ -74,6 +74,8 @@ img {
      border-radius: 5px;
 
 }
+
+
  .menu a:hover{
 
      border-radius: 5px;
@@ -81,8 +83,15 @@ img {
      color: #000;
      height: 30px;
  }
-a:active {
-    background-color: yellow;
+
+.active{
+    background-color: white;
+    color: black;
+}
+
+.navigation__link.active {
+    color: black;
+    background-color: white;
 }
 
  .original{

@@ -443,11 +443,11 @@ form#contact-form{
 
 }
 .cta {
-    background: url('img/power.png') no-repeat;
+    background: url('img/button-off1.png') no-repeat;
     transition: 300ms all ease-in;
     cursor: pointer;
-    height: 64px;
-    width: 64px;
+    height: 112px;
+    width: 112px;
     position: absolute;
     top: 75%;
     left: 50%;
@@ -455,7 +455,7 @@ form#contact-form{
 }
 
 .cta:hover{
-    background: url('img/power2.png') no-repeat;
+    background: url('img/button-on1.png') no-repeat;
 }
 
 .cta-name{

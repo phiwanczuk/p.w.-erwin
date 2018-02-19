@@ -52,10 +52,10 @@ img {
 
 .menu ul {
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 5px;
     padding: 0;
     list-style: none;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
 }
  .menu a{
     display: block;
@@ -205,15 +205,19 @@ div.galleria-container.notouch.galleria-theme-classic{
 .selling{
     padding-bottom: 2px;
     color: white;
+    margin-left: 81%;
 }
 
 .selling > * {
     display: inline;
 }
-
-.sells{
-    margin-left:70%;
+h4.sells{
+    position: absolute;
+    top: -1%;
+    right: 1.5%;
 }
+
+
 .avant-bg{
     min-height: 600px;
     background: #0f0f0f url(img/auto.jpg);
@@ -474,4 +478,7 @@ footer p{
     margin-top: 5%;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin-left: 45%;
+}
+.freepik{
+    display: none;
 }

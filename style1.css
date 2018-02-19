@@ -33,7 +33,7 @@ img {
 .hero{
     grid-area: hero;
     min-height: 600px;
-    background: #0f0f0f url(img/baner12.png);
+    background: #0f0f0f url(img/baner15.png);
     background-size: cover;
     background-position: bottom right;
     padding: 50px;
@@ -95,7 +95,11 @@ img {
 }
 
  .original{
-     margin-top: -23%;
+     margin-top: -25%;
+ }
+
+ span.opony{
+     margin-left: 17%;
  }
 nav.menu.cloned{
     background: rgba(0,0,0,0.6);
@@ -474,7 +478,7 @@ form#contact-form{
 .social a img{
     position: absolute;
     left: 60%;
-    top: 484%;
+    top: 486%;
 }
 
 .social a:hover{
@@ -483,7 +487,7 @@ form#contact-form{
 
 .social h2{
     position: absolute;
-    top: 482%;
+    top: 484%;
     left: 46%;
 }
 

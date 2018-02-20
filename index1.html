@@ -10,9 +10,12 @@
     <title>P.W. Erwin Felgi opony renowacja piaskowanie Chełm</title>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
     <script src="galleria/galleria-1.5.7.min.js"></script>
+    <script src="SlickNav/jquery.slicknav.js"></script>
     <link rel="shortcut icon"
           type="image/png"
           href="img/android-icon-36x36.png"/>
+    <link rel="stylesheet"
+          href="SlickNav/slicknav.css">
     <meta name="description"
           content="P.W. Erwin najszybsza renowacja felg aluminiowych i stalowych. Piaskowanie, malowanie proszkowe i wiele innych. Szeroki wybór opon."/>
     <meta name="keywords"
@@ -37,14 +40,14 @@
         <header class="hero">
             <nav class="menu navigation"
                  id="mainNav">
-                <!--<button aria-expanded="false"-->
-                <!--aria-controls="menu-list">-->
-                <!--<span class="open">☰</span>-->
-                <!--<span class="close">×</span>-->
-                <!--Menu-->
-                <!--</button>-->
+                <button aria-expanded="false"
+                aria-controls="menu-list">
+                <span class="open">☰</span>
+                <span class="close">×</span>
+                Menu
+                </button>
                 <div id="menu-center">
-                    <ul id="menu-list">
+                    <ul id="menu">
                         <li>
                             <a href="#offer"
                                class="offer move navigation__link">Oferta</a>
@@ -93,7 +96,7 @@
 
     </div>
     <div id="offer"></div>
-    <section class="offer page-section">
+    <section class="about offer page-section">
         <div class="offers">
             <div class="tyres about">
                 <img src="img/opony1.png"
@@ -203,137 +206,137 @@
         </div>
     </section>
 
-    <div id="pricing"></div>
-    <section class="pricing page-section">
-        <div class="pricing-tables">
-            <div class="main">
-                <table class="steelBlueCols">
-                    <thead>
-                    <tr>
-                        <th colspan="3">RENOWACJA FELG DO SAMOCHODÓW OSOBOWYCH I DOSTAWCZYCH</th>
-                    </tr>
-                    <tr>
-                        <th colspan="3">PIASKOWANIE + MALOWANIE</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td>ROZMIAR</td>
-                        <td>KOLORY PODSTAWOWE</td>
-                        <td>INNE KOLORY</td>
-                    </tr>
-                    <tr>
-                        <td>13"</td>
-                        <td>OD 300 ZŁ</td>
-                        <td>OD 300 ZŁ</td>
-                    </tr>
-                    <tr>
-                        <td>14"</td>
-                        <td>OD 350 ZŁ</td>
-                        <td>OD 350 ZŁ</td>
-                    </tr>
-                    <tr>
-                        <td>15"</td>
-                        <td>OD 400 ZŁ</td>
-                        <td>OD 450 ZŁ</td>
-                    </tr>
-                    <tr>
-                        <td>16"</td>
-                        <td>OD 400 ZŁ</td>
-                        <td>OD 450 ZŁ</td>
-                    </tr>
-                    <tr>
-                        <td>17"</td>
-                        <td>OD 450 ZŁ</td>
-                        <td>OD 500 ZŁ</td>
-                    </tr>
-                    <tr>
-                        <td>18"</td>
-                        <td>OD 550 ZŁ</td>
-                        <td>OD 600 ZŁ</td>
-                    </tr>
-                    <tr>
-                        <td>19"</td>
-                        <td>OD 650 ZŁ</td>
-                        <td>OD 700 ZŁ</td>
-                    </tr>
-                    <tr>
-                        <td>20"</td>
-                        <td>OD 750 ZŁ</td>
-                        <td>OD 800 ZŁ</td>
-                    </tr>
-                    <tr>
-                        <td>21"</td>
-                        <td>OD 850 ZŁ</td>
-                        <td>OD 900 ZŁ</td>
-                    </tr>
-                    <tr>
-                        <td>22"</td>
-                        <td>OD 900 ZŁ</td>
-                        <td>OD 950 ZŁ</td>
-                    </tr>
-                    </tbody>
-                </table>
-                <h3>* CENA DOTYCZY KOMPLETU NIE WYMAGAJĄCEGO DODATKOWYCH USŁUG </h3>
-            </div>
-            <div class="pricing-right">
-                <div class="top-table">
-                    <table class="steelBlueCols">
-                        <thead>
-                        <tr>
-                            <th colspan="3">PROSTOWANIE FELG</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>FELGA ALUMINIOWA</td>
-                            <td>FELGA STALOWA</td>
+    <!--<div id="pricing"></div>-->
+    <!--<section class="pricing page-section">-->
+        <!--<div class="pricing-tables">-->
+            <!--<div class="main">-->
+                <!--<table class="steelBlueCols">-->
+                    <!--<thead>-->
+                    <!--<tr>-->
+                        <!--<th colspan="3">RENOWACJA FELG DO SAMOCHODÓW OSOBOWYCH I DOSTAWCZYCH</th>-->
+                    <!--</tr>-->
+                    <!--<tr>-->
+                        <!--<th colspan="3">PIASKOWANIE + MALOWANIE</th>-->
+                    <!--</tr>-->
+                    <!--</thead>-->
+                    <!--<tbody>-->
+                    <!--<tr>-->
+                        <!--<td>ROZMIAR</td>-->
+                        <!--<td>KOLORY PODSTAWOWE</td>-->
+                        <!--<td>INNE KOLORY</td>-->
+                    <!--</tr>-->
+                    <!--<tr>-->
+                        <!--<td>13"</td>-->
+                        <!--<td>OD 300 ZŁ</td>-->
+                        <!--<td>OD 300 ZŁ</td>-->
+                    <!--</tr>-->
+                    <!--<tr>-->
+                        <!--<td>14"</td>-->
+                        <!--<td>OD 350 ZŁ</td>-->
+                        <!--<td>OD 350 ZŁ</td>-->
+                    <!--</tr>-->
+                    <!--<tr>-->
+                        <!--<td>15"</td>-->
+                        <!--<td>OD 400 ZŁ</td>-->
+                        <!--<td>OD 450 ZŁ</td>-->
+                    <!--</tr>-->
+                    <!--<tr>-->
+                        <!--<td>16"</td>-->
+                        <!--<td>OD 400 ZŁ</td>-->
+                        <!--<td>OD 450 ZŁ</td>-->
+                    <!--</tr>-->
+                    <!--<tr>-->
+                        <!--<td>17"</td>-->
+                        <!--<td>OD 450 ZŁ</td>-->
+                        <!--<td>OD 500 ZŁ</td>-->
+                    <!--</tr>-->
+                    <!--<tr>-->
+                        <!--<td>18"</td>-->
+                        <!--<td>OD 550 ZŁ</td>-->
+                        <!--<td>OD 600 ZŁ</td>-->
+                    <!--</tr>-->
+                    <!--<tr>-->
+                        <!--<td>19"</td>-->
+                        <!--<td>OD 650 ZŁ</td>-->
+                        <!--<td>OD 700 ZŁ</td>-->
+                    <!--</tr>-->
+                    <!--<tr>-->
+                        <!--<td>20"</td>-->
+                        <!--<td>OD 750 ZŁ</td>-->
+                        <!--<td>OD 800 ZŁ</td>-->
+                    <!--</tr>-->
+                    <!--<tr>-->
+                        <!--<td>21"</td>-->
+                        <!--<td>OD 850 ZŁ</td>-->
+                        <!--<td>OD 900 ZŁ</td>-->
+                    <!--</tr>-->
+                    <!--<tr>-->
+                        <!--<td>22"</td>-->
+                        <!--<td>OD 900 ZŁ</td>-->
+                        <!--<td>OD 950 ZŁ</td>-->
+                    <!--</tr>-->
+                    <!--</tbody>-->
+                <!--</table>-->
+                <!--<h3>* CENA DOTYCZY KOMPLETU NIE WYMAGAJĄCEGO DODATKOWYCH USŁUG </h3>-->
+            <!--</div>-->
+            <!--<div class="pricing-right">-->
+                <!--<div class="top-table">-->
+                    <!--<table class="steelBlueCols">-->
+                        <!--<thead>-->
+                        <!--<tr>-->
+                            <!--<th colspan="3">PROSTOWANIE FELG</th>-->
+                        <!--</tr>-->
+                        <!--</thead>-->
+                        <!--<tbody>-->
+                        <!--<tr>-->
+                            <!--<td>FELGA ALUMINIOWA</td>-->
+                            <!--<td>FELGA STALOWA</td>-->
 
-                        </tr>
-                        <tr>
-                            <td>80,00 zł</td>
-                            <td>50,00 zł</td>
+                        <!--</tr>-->
+                        <!--<tr>-->
+                            <!--<td>80,00 zł</td>-->
+                            <!--<td>50,00 zł</td>-->
 
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div class="secondTable">
-                    <table class="steelBlueCols">
-                        <thead>
-                        <tr>
-                            <th colspan="3">RENOWACJA FELG DO SAMOCHODÓW CIĘŻAROWYCH</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>ROZMIAR</td>
-                            <td>P+M*</td>
-                            <td>PIASKOWANIE</td>
-                        </tr>
-                        <tr>
-                            <td>17,5"</td>
-                            <td>OD 120 ZŁ</td>
-                            <td>OD 50 ZŁ</td>
-                        </tr>
-                        <tr>
-                            <td>19,5"</td>
-                            <td>OD 130 ZŁ</td>
-                            <td>OD 60 ZŁ</td>
-                        </tr>
-                        <tr>
-                            <td>22,5"</td>
-                            <td>OD 140 ZŁ</td>
-                            <td>OD 70 ZŁ</td>
-                        </tr>
-                        </tbody>
-                    </table>
-                    <h3>* PIASKOWANIE + MALOWANIE</h3>
-                    <h4>* CENA NIE DOTYCZY DEMONTAŻU I MONTAŻU ORAZ ODBIORU I DOSTAWY</h4>
-                </div>
-            </div>
-        </div>
-    </section>
+                        <!--</tr>-->
+                        <!--</tbody>-->
+                    <!--</table>-->
+                <!--</div>-->
+                <!--<div class="secondTable">-->
+                    <!--<table class="steelBlueCols">-->
+                        <!--<thead>-->
+                        <!--<tr>-->
+                            <!--<th colspan="3">RENOWACJA FELG DO SAMOCHODÓW CIĘŻAROWYCH</th>-->
+                        <!--</tr>-->
+                        <!--</thead>-->
+                        <!--<tbody>-->
+                        <!--<tr>-->
+                            <!--<td>ROZMIAR</td>-->
+                            <!--<td>P+M*</td>-->
+                            <!--<td>PIASKOWANIE</td>-->
+                        <!--</tr>-->
+                        <!--<tr>-->
+                            <!--<td>17,5"</td>-->
+                            <!--<td>OD 120 ZŁ</td>-->
+                            <!--<td>OD 50 ZŁ</td>-->
+                        <!--</tr>-->
+                        <!--<tr>-->
+                            <!--<td>19,5"</td>-->
+                            <!--<td>OD 130 ZŁ</td>-->
+                            <!--<td>OD 60 ZŁ</td>-->
+                        <!--</tr>-->
+                        <!--<tr>-->
+                            <!--<td>22,5"</td>-->
+                            <!--<td>OD 140 ZŁ</td>-->
+                            <!--<td>OD 70 ZŁ</td>-->
+                        <!--</tr>-->
+                        <!--</tbody>-->
+                    <!--</table>-->
+                    <!--<h3>* PIASKOWANIE + MALOWANIE</h3>-->
+                    <!--<h4>* CENA NIE DOTYCZY DEMONTAŻU I MONTAŻU ORAZ ODBIORU I DOSTAWY</h4>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</section>-->
     <div id="contact"></div>
     <section class="contact page-section">
         <h1>Kontakt</h1>
@@ -545,6 +548,10 @@
             }
         });
     }
+
+    $(function(){
+        $('#menu').slicknav();
+    });
 
 
 </script>

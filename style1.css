@@ -638,11 +638,18 @@ footer p{
         grid-template-areas:
                 "hero"
     }
+    .avant-bg {
+        min-height: 399px;
+    }
     .dark{
-        width: 300px;
+        width: 370px;
+        height: 400px;
     }
     .opony{
-        margin-left: -10%;
+        margin-left: 5%;
+    }
+    img.opony{
+        height: 260px;
     }
     .avant-bg{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
@@ -752,6 +759,10 @@ footer p{
         left: 55%;}
     .cta{
         top: 68%;
+    }
+    div .info.about{
+        font-size: 0.7em;
+        margin-left: 22%;
     }
 
 }

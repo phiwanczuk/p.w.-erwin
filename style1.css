@@ -218,7 +218,7 @@ div.galleria-container.notouch.galleria-theme-classic{
     margin-right: 20px;
 }
 .straight::before{
-    content: url("img/icons/line.png");
+    content: url("img/icons/settings.png");
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -559,6 +559,12 @@ footer p{
         height: 500px;
         margin-left: 0;
     }
+    .hero{
+        grid-area: hero;
+        min-height: 500px;
+        background: #0f0f0f url(img/baner15.png) no-repeat;
+        background-size: contain;
+    }
 
 
 }
@@ -597,8 +603,33 @@ footer p{
 
     .truck-pic img{
     margin-left: 0;
-
-}
+    }
+    .hero{
+        grid-area: hero;
+        min-height: 500px;
+        background: #0f0f0f url(img/baner15.png) no-repeat;
+        background-size: contain;
+    }
+    .sanding::before{
+        content:  url("img/icons/small/sand-bucket.png" );
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .renovation::before{
+        content:  url("img/icons/small/tyre.png");
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .new-n-used::before{
+        content:  url("img/icons/small/icon.png");
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .straight::before{
+        content: url("img/icons/small/settings (1).png");
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 
 }
 
@@ -657,6 +688,70 @@ footer p{
     }
     table.steelBlueCols {
         margin-left: 0;
+    }
+
+    .truck-dsc ul li {
+        font-size: 0.7em;
+    }
+    .truck-dsc ul li::before{
+        content: '- '
+    }
+
+    .truck-dsc ul{
+        margin-right: 0;
+    }
+
+    .dark ul li{
+        font-size: 0.7em;
+    }
+    .dark ul li::before {
+        content: '- ';
+    }
+    .dark ul {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .hero{
+        grid-area: hero;
+        min-height: 400px;
+        background: #0f0f0f url(img/baner15.png) no-repeat;
+        background-size: contain;
+    }
+    .ctas h1{
+        font-size: 0.5em;
+    }
+    .ctas {
+        top: 16%;
+    }
+    .sanding::before{
+        content:  url("img/icons/small/sand-bucket.png" );
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .renovation::before{
+        content:  url("img/icons/small/tyre.png");
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .new-n-used::before{
+        content:  url("img/icons/small/icon.png");
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .straight::before{
+        content: url("img/icons/small/settings (1).png");
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    span.opony{
+        margin-left: 23%;
+    }
+    .cta-name {
+        position: absolute;
+        top: 49%;
+        left: 55%;}
+    .cta{
+        top: 68%;
     }
 
 }

@@ -634,11 +634,29 @@ footer p{
         margin-left: 0;
     }
     div.galleria-image{
-        height: 400px;
+        height: 200px;
         top: 0;
     }
      img{
         top: 0;
+    }
+     .gallery h1{
+         display: none;
+     }
+     .fireblaster img{
+         display: none;
+     }
+    form#contact-form{
+        margin-left: 8%;
+    }
+    .contact-data{
+        margin-left: 30%;
+    }
+    .contact-data {
+        font-size: 0.7em;
+    }
+    table.steelBlueCols {
+        margin-left: 0;
     }
 
 }

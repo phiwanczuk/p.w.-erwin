@@ -89,6 +89,10 @@ img {
     color: black;
 }
 
+.slicknav_menu{
+    padding: 0 !important;
+}
+
 .navigation__link.active {
     color: black;
     background-color: white;
@@ -399,9 +403,6 @@ form#contact-form{
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
-.offer{
-    clip-path: polygon(0 6%, 100% 0, 100% 94%, 0 100%);
-}
 
 .dark h1{
     margin: 0;
@@ -478,7 +479,7 @@ form#contact-form{
 .social a img{
     position: absolute;
     left: 60%;
-    top: 486%;
+    top: 503%;
 }
 
 .social a:hover{
@@ -487,7 +488,7 @@ form#contact-form{
 
 .social h2{
     position: absolute;
-    top: 484%;
+    top: 503%;
     left: 46%;
 }
 
@@ -506,6 +507,12 @@ footer p{
 .slicknav_menu {
     display:none;
 }
+
+
+
+
+
+
 
 @media screen and (max-width: 1000px) {
     /* #menu is the original menu */
@@ -561,15 +568,77 @@ footer p{
     }
     .hero{
         grid-area: hero;
-        min-height: 500px;
+        min-height: 350px;
         background: #0f0f0f url(img/baner15.png) no-repeat;
         background-size: contain;
     }
+    /*.selling {*/
+        /*margin-left: 60%;*/
+    /*}*/
 
+    /*.ctas h1{*/
+        /*font-size: 0.9em;*/
+    /*}*/
+    /*.ctas {*/
+        /*top: 20%;*/
+    /*}*/
+    /*span.opony{*/
+        /*margin-left: 27%;*/
+    /*}*/
+    /*.cta-name {*/
+        /*position: absolute;*/
+        /*top: 30%;*/
+        /*left: 50%;*/
+        /*font-size: 0.9em;*/
+    /*}*/
+    /*.cta{*/
+        /*top: 50%;*/
+    /*}*/
+    /*img.opony{*/
+        /*height: 350px;*/
+        /*margin-left: -15%;*/
+        /*margin-right: auto;*/
+    /*}*/
+    /*.about{*/
+        /*margin-left: 15%;*/
+    /*}*/
+    /*.truck-dsc ul {*/
+         /*margin-right: 0;*/
+    /*}*/
+    /*form#contact-form{*/
+        /*margin-left: 58%;*/
+    /*}*/
 
 }
+@media screen and (max-width: 1160px) and (min-width: 1000px){
+    nav#mainNav.menu.navigation.original{
+        margin-top: -32%;
+    }
+}
 
-@media (max-width: 700px) {
+
+
+@media screen and (max-width: 1000px) and (min-width: 700px){
+    .truck-dsc ul li {
+        font-size: 0.9em;
+    }
+    .truck-dsc ul li::before{
+        content: '- '
+    }
+
+    .truck-dsc ul{
+        margin-right: 0;
+    }
+    .dark ul li{
+        font-size: 0.9em;
+    }
+    .dark ul li::before {
+        content: '- ';
+    }
+    .dark ul {
+        margin-left: 0;
+        margin-top: 30px;
+    }
     .top {
         grid-template-areas:
                 "hero hero"
@@ -595,7 +664,194 @@ footer p{
         grid-template-columns: 1fr;
     }
     .dark{
-        width: 300px;
+        width: auto;
+    }
+    .avant-bg{
+        clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    }
+
+    .truck-pic img{
+        margin-left: 0;
+    }
+    .hero{
+        grid-area: hero;
+        min-height: 500px;
+        background: #0f0f0f url(img/baner15.png) no-repeat;
+        background-size: contain;
+    }
+    .sanding::before{
+        content:  url("img/icons/small/sand-bucket.png" );
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .renovation::before{
+        content:  url("img/icons/small/tyre.png");
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .new-n-used::before{
+        content:  url("img/icons/small/icon.png");
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .straight::before{
+        content: url("img/icons/small/settings (1).png");
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    span.opony{
+        margin-left: 21%;
+    }
+    .cta-name {
+        position: absolute;
+        top: 57%;
+        left: 50%;}
+    .cta{
+        top: 75%;
+    }
+    div .info.about{
+        font-size: 0.7em;
+        margin-left: 23%;
+    }
+    .selling {
+        margin-left: 50%;
+    }
+
+    .ctas h1{
+        font-size: 0.9em;
+    }
+    .ctas {
+        top: 26%;
+    }
+    img.opony{
+        height: 350px;
+        margin-left: 5%;
+        margin-right: auto;
+    }
+    table.steelBlueCols {
+        margin-left: 5%;
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1000px){
+    .selling{
+        margin-left: 50%;
+    }
+}
+
+
+@media screen and (max-width: 1070px) and (min-width: 1000px){
+
+    .social h2 {
+        position: absolute;
+        top: 513%;}
+
+    .social a img{
+        top: 515%;
+        left: 62%;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 880px){
+    div.galleria-container.notouch.galleria-theme-classic {
+        margin-left: 15%;
+    }
+    .social h2 {
+        position: absolute;
+        top: 449%;
+        left: 42%;
+
+    }
+
+    .social a img {
+        top: 450%;
+        left: 62%;
+    }
+}
+
+
+@media screen and (max-width: 880px) and (min-width: 850px){
+    div.galleria-container.notouch.galleria-theme-classic {
+        margin-left: 10%;
+    }
+    .social a img{
+        top: 455%;
+        z-index: 999;
+    }
+}
+
+@media screen and (max-width: 799px) and (min-width: 700px){
+    table.steelBlueCols {
+        margin-left: 25%;
+    }
+    .social h2 {
+        position: absolute;
+        top: 501%;
+        left: 38%;
+        z-index: -1
+    }
+    .social a img{
+        z-index: -1;
+    }
+}
+
+
+
+@media (max-width: 700px) {
+    .truck-dsc ul li {
+        font-size: 0.9em;
+    }
+    .truck-dsc ul li::before{
+        content: '- '
+    }
+
+    .truck-dsc ul{
+        margin-right: 0;
+    }
+    .dark ul li{
+        font-size: 0.9em;
+    }
+    .dark ul li::before {
+        content: '- ';
+    }
+    .dark ul {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .top {
+        grid-template-areas:
+                "hero hero"
+
+    }
+    .social a img{
+        z-index: 999;
+    }
+    /* About */
+    .about {
+        grid-template-columns: 1fr;
+    }
+    .avant{
+        grid-template-columns: 1fr;
+    }
+    .truck{
+        grid-template-columns: 1fr;
+    }
+    .gallery{
+        grid-template-columns: 1fr;
+    }
+    .pricing{
+        grid-template-columns: 1fr;
+    }
+    .contact{
+        grid-template-columns: 1fr;
+    }
+    .dark{
+        width: auto;
     }
     .avant-bg{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
@@ -630,10 +886,52 @@ footer p{
         margin-left: 10px;
         margin-right: 10px;
     }
+    span.opony{
+        margin-left: 21%;
+    }
+    .cta-name {
+        position: absolute;
+        top: 57%;
+        left: 50%;}
+    .cta{
+        top: 75%;
+    }
+    div .info.about{
+        font-size: 0.7em;
+        margin-left: 23%;
+    }
+    .selling {
+        margin-left: 50%;
+    }
+
+    .ctas h1{
+        font-size: 0.9em;
+    }
+    .ctas {
+        top: 20%;
+    }
+    img.opony{
+        height: 350px;
+        margin-left: 5%;
+        margin-right: auto;
+    }
+    .fireblaster img{
+        display: none;
+    }
+    .contact-map{
+        margin-left: 20%;
+    }
+    .social a img {
+        position: absolute;
+        left: 60%;
+        top: 550%;
+    }
+
 
 }
 
 @media (max-width: 500px) {
+
     .top {
         grid-template-areas:
                 "hero"
@@ -642,14 +940,13 @@ footer p{
         min-height: 399px;
     }
     .dark{
-        width: 370px;
+        width: auto;
         height: 400px;
     }
-    .opony{
-        margin-left: 5%;
-    }
+
     img.opony{
         height: 260px;
+        margin-left: -5%;
     }
     .avant-bg{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
@@ -685,7 +982,7 @@ footer p{
          display: none;
      }
     form#contact-form{
-        margin-left: 8%;
+        margin-left: -20%;
     }
     .contact-data{
         margin-left: 30%;
@@ -762,7 +1059,11 @@ footer p{
     }
     div .info.about{
         font-size: 0.7em;
-        margin-left: 22%;
+        margin-left: 10%;
+
+    }
+    .selling {
+        margin-left: 39%;
     }
 
 }

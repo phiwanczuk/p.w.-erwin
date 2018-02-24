@@ -33,7 +33,7 @@ img {
 .hero{
     grid-area: hero;
     min-height: 600px;
-    background: #0f0f0f url(img/baner15.png);
+    background: #0f0f0f url(img/baner16.png);
     background-size: cover;
     background-position: bottom right;
     padding: 50px;
@@ -75,7 +75,12 @@ img {
 
 }
 
-
+img.opony{
+    width: 85%;
+    opacity: 0.6;
+    margin-top: 10%;
+    margin-left: 8%;
+}
  .menu a:hover{
 
      border-radius: 5px;
@@ -85,7 +90,6 @@ img {
  }
 
 .active{
-    background-color: white;
     color: black;
 }
 
@@ -226,10 +230,14 @@ div.galleria-container.notouch.galleria-theme-classic{
     margin-left: 20px;
     margin-right: 20px;
 }
+/*.selling{*/
+    /*padding-bottom: 2px;*/
+    /*color: white;*/
+    /*margin-left: 81%;*/
+/*}*/
+
 .selling{
-    padding-bottom: 2px;
-    color: white;
-    margin-left: 81%;
+    height: 40px;
 }
 
 .selling > * {
@@ -239,6 +247,7 @@ h4.sells{
     position: absolute;
     top: -1%;
     right: 1.5%;
+    color: white;
 }
 
 
@@ -345,6 +354,13 @@ table.steelBlueCols thead th{
     width: 100%;
 
 }
+.top-fb{
+    position: absolute;
+    top: -30%;
+    left: -20%;
+}
+
+
 
 #inputName, #inputEmail{
     width: 90%;
@@ -442,10 +458,14 @@ form#contact-form{
 }
 .ctas{
     position: absolute;
-    top: 42%;
+    top: 55%;
     left: 7%;
+    font-size: 1em;
 
+}
 
+.ctas h1{
+    text-transform: lowercase;
 }
 .cta {
     background: url('img/button-off1.png') no-repeat;
@@ -610,7 +630,32 @@ footer p{
     /*}*/
 
 }
-@media screen and (max-width: 1160px) and (min-width: 1000px){
+
+
+
+@media screen and (max-width: 1145px) and (min-width: 1000px){
+    .hero{
+        background: #0f0f0f url(img/baner16.png) no-repeat;
+        background-size: contain;
+
+    }
+    .ctas{
+        position: absolute;
+        top: 55%;
+        left: 7%;
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 1060px) and (min-width: 1000px){
+    nav#mainNav.menu.navigation.original{
+        margin-top: -40%;
+    }
+}
+
+
+
+@media screen and (max-width: 1160px) and (min-width: 1060px){
     nav#mainNav.menu.navigation.original{
         margin-top: -32%;
     }
@@ -704,27 +749,31 @@ footer p{
     }
     .cta-name {
         position: absolute;
-        top: 57%;
-        left: 50%;}
+        top: 47%;
+        left: 50%;
+        font-size: 1.2em;
+    }
     .cta{
-        top: 75%;
+        top: 64%;
+        left: 52%;
     }
     div .info.about{
         font-size: 0.7em;
         margin-left: 23%;
     }
-    .selling {
-        margin-left: 50%;
-    }
+    /*.selling {*/
+        /*margin-left: 50%;*/
+    /*}*/
 
     .ctas h1{
         font-size: 0.9em;
     }
     .ctas {
         top: 26%;
+        font-size: 1.4em;
     }
     img.opony{
-        height: 350px;
+        height: 240px;
         margin-left: 5%;
         margin-right: auto;
     }
@@ -739,9 +788,9 @@ footer p{
 }
 
 @media screen and (max-width: 1200px) and (min-width: 1000px){
-    .selling{
-        margin-left: 50%;
-    }
+    /*.selling{*/
+        /*margin-left: 50%;*/
+    /*}*/
 }
 
 
@@ -881,6 +930,14 @@ footer p{
         margin-left: 10px;
         margin-right: 10px;
     }
+     a#tyres:link{
+        text-decoration: none !important;
+        color: yellow !important;
+    }
+
+    .new-n-used a:hover{
+        text-underline: #0f0f0f;
+    }
     .straight::before{
         content: url("img/icons/small/settings (1).png");
         margin-left: 10px;
@@ -891,27 +948,27 @@ footer p{
     }
     .cta-name {
         position: absolute;
-        top: 57%;
+        top: 70%;
         left: 50%;}
     .cta{
-        top: 75%;
+        top: 93%;
     }
     div .info.about{
         font-size: 0.7em;
         margin-left: 23%;
     }
-    .selling {
-        margin-left: 50%;
-    }
+    /*.selling {*/
+        /*margin-left: 50%;*/
+    /*}*/
 
     .ctas h1{
         font-size: 0.9em;
     }
     .ctas {
-        top: 20%;
+        top: 26%;
     }
     img.opony{
-        height: 350px;
+        height: 250px;
         margin-left: 5%;
         margin-right: auto;
     }
@@ -945,8 +1002,8 @@ footer p{
     }
 
     img.opony{
-        height: 260px;
-        margin-left: -5%;
+        height: 180px;
+        margin-left: 5%;
     }
     .avant-bg{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
@@ -1053,17 +1110,18 @@ footer p{
     .cta-name {
         position: absolute;
         top: 49%;
-        left: 55%;}
+        left: 53%;}
     .cta{
         top: 68%;
+        left: 50%;
     }
     div .info.about{
         font-size: 0.7em;
         margin-left: 10%;
 
     }
-    .selling {
-        margin-left: 39%;
-    }
+    /*.selling {*/
+        /*margin-left: 39%;*/
+    /*}*/
 
 }

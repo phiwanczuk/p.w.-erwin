@@ -177,7 +177,7 @@ li.dest, li.weld, li.time{
 .gallery{
     clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
     background-color: #171B1E;
-    height: 900px;
+    height: 1010px;
 }
 
 
@@ -495,22 +495,17 @@ form#contact-form{
     border-radius: 5px;
 
 }
-
-.social a img{
-    position: absolute;
-    left: 60%;
-    top: 503%;
+.social{
+    display: flex;
+    margin-left: 50%;
 }
+
+
 
 .social a:hover{
     opacity: 0.7;
 }
 
-.social h2{
-    position: absolute;
-    top: 503%;
-    left: 46%;
-}
 
 footer p{
     clear: both;
@@ -641,9 +636,9 @@ footer p{
     }
     .ctas{
         position: absolute;
-        top: 55%;
+        top: 41%;
         left: 7%;
-        font-size: 1em;
+        font-size: 0.7em;
     }
 }
 
@@ -812,7 +807,7 @@ footer p{
     }
     .social h2 {
         position: absolute;
-        top: 449%;
+        top: 444%;
         left: 42%;
 
     }
@@ -840,7 +835,7 @@ footer p{
     }
     .social h2 {
         position: absolute;
-        top: 501%;
+        top: 506%;
         left: 38%;
         z-index: -1
     }
@@ -981,7 +976,7 @@ footer p{
     .social a img {
         position: absolute;
         left: 60%;
-        top: 550%;
+        top: 542%;
     }
 
 

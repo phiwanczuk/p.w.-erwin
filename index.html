@@ -78,9 +78,9 @@
             </nav>
             <div class="ctas">
                 <h1>W ofercie mamy: </h1>
-                <h1 class="starting sanding">Piaskowanie</h1>
+                <h1 class="starting sanding blink_me">Piaskowanie</h1>
                 <h1 class="renovation">Renowacja Felg</h1>
-                <h1 class="new-n-used">Opony nowe i <span class="opony">używane</span></h1>
+                <h1 class="new-n-used"><a href="https://pwerwin.olx.pl/" target="_blank">Opony nowe i <span class="opony">używane</span></a></h1>
                 <h1 class="straight">Prostowanie Felg</h1>
             </div>
             <h2 class="cta-name">Rozpocznijmy współprace!</h2>
@@ -111,16 +111,14 @@
                     INDYWIDUALNE PODEJŚCIE DO KLIENTA PRZY JEDNOCZEŚNIE SZYBKIM CZASIE REALIZACJI .
                 </p>
 
-                <h2>W NASZEJ OFERCIE MAMY :</h2>
+                <h2>PIASKUJEMY :</h2>
 
 
                 <ul>
-                    <li>PIASKOWANIE</li>
-                    <li>MALOWANIE PROSZKOWE</li>
-                    <li>SPAWANIE ALUMINIUM</li>
-                    <li>AKCESORIA DO FELG</li>
-                    <li>OPONY NOWE I UŻYWANE</li>
-                    <li>FELGI NOWE I UŻYWANE</li>
+                    <li>elemnty do samochodów osobowych</li>
+                    <li>elementy do samochodów ciężarowych(zderzaki itp.)</li>
+                    <li>motocykle(możliwość renowacji całych maszyn)</li>
+                    <li>inne(maszyny do szycia, ławki, stoliki, krzesła, itp.)</li>
                 </ul>
 
                 <h2>ZAPRASZAMY !</h2>
@@ -559,6 +557,10 @@
     $(function(){
         $('#menu').slicknav();
     });
+
+    (function blink() {
+        $('.blink_me').fadeOut(600).fadeIn(600, blink);
+    })();
 
 
 </script>

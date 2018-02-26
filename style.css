@@ -587,45 +587,13 @@ footer p{
         background: #0f0f0f url(img/baner15.png) no-repeat;
         background-size: contain;
     }
-    /*.selling {*/
-        /*margin-left: 60%;*/
-    /*}*/
-
-    /*.ctas h1{*/
-        /*font-size: 0.9em;*/
-    /*}*/
-    /*.ctas {*/
-        /*top: 20%;*/
-    /*}*/
-    /*span.opony{*/
-        /*margin-left: 27%;*/
-    /*}*/
-    /*.cta-name {*/
-        /*position: absolute;*/
-        /*top: 30%;*/
-        /*left: 50%;*/
-        /*font-size: 0.9em;*/
-    /*}*/
-    /*.cta{*/
-        /*top: 50%;*/
-    /*}*/
-    /*img.opony{*/
-        /*height: 350px;*/
-        /*margin-left: -15%;*/
-        /*margin-right: auto;*/
-    /*}*/
-    /*.about{*/
-        /*margin-left: 15%;*/
-    /*}*/
-    /*.truck-dsc ul {*/
-         /*margin-right: 0;*/
-    /*}*/
-    /*form#contact-form{*/
-        /*margin-left: 58%;*/
-    /*}*/
 
 }
-
+@media screen and (max-width: 1228px) and (min-width: 1000px){
+        .menu a{
+            font-size: 13px;
+        }
+}
 
 
 @media screen and (max-width: 1145px) and (min-width: 1000px){
@@ -960,7 +928,7 @@ footer p{
         font-size: 0.9em;
     }
     .ctas {
-        top: 26%;
+        top: 22%;
     }
     img.opony{
         height: 250px;
@@ -1119,4 +1087,9 @@ footer p{
         /*margin-left: 39%;*/
     /*}*/
 
+}
+
+a{
+    text-decoration: none;
+    color: yellow;
 }

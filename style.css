@@ -21,17 +21,22 @@ img {
 .wrapper {
     grid-area: hero;
     grid-gap: 20px;
-
+    -ms-grid-area: hero;
+    -ms-grid-gap: 20px;
 }
 
 .top {
     display: grid;
+    display: -ms-grid;
     grid-gap: 20px;
+    -ms-grid-gap: 20px;
     grid-template-areas: "hero hero";
+    -ms-grid-template-areas: "hero hero";
 }
 
 .hero{
     grid-area: hero;
+    -ms-grid-area: hero;
     min-height: 600px;
     background: #0f0f0f url(img/baner16.png);
     background-size: cover;
@@ -52,7 +57,9 @@ img {
 
 .menu ul {
     display: grid;
+    display: -ms-grid;
     grid-gap: 5px;
+    -ms-grid-gap: 5px;
     padding: 0;
     list-style: none;
     grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
@@ -431,7 +438,6 @@ form#contact-form{
 }
 .contact{
     background-color: #171B1E;
-    height: 800px;
 }
 .contact h3{
     margin-top: 6%;
@@ -440,11 +446,23 @@ form#contact-form{
 .contact > h1{
     visibility: hidden;
 }
+.contact > p{
+    margin-top: 15px;
+    font-size: 1em;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 10px;
+}
 .contact-data{
     margin-left: 30%;
 }
 .contact-data p{
     font-size: 2em;
+}
+.contact-data > h2{
+    margin-top: -3%;
 }
 .contact-data h1{
     font-size: 3em;
@@ -1040,4 +1058,10 @@ footer p{
 a{
     text-decoration: none;
     color: yellow;
+}
+
+@media screen and (max-width: 970px) and (min-width: 650px){
+    form#contact-form{
+        margin-left: 65%;
+    }
 }

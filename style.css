@@ -136,17 +136,13 @@ nav.menu.cloned{
     margin-left: 5%;
 }
 .info p{
-    margin-right: 100px;
+    margin-right: 50px;
     font-size: 1.2em;
 }
-.dark ul{
-    margin-left: 80px;
-    margin-top: 10%;
+.info h2{
+    text-align: center;
 }
-.dark ul li {
-    font-size: 1.2em;
-    list-style: none;
-}
+
 li.renov, li.paint{
     margin-bottom: 40px;
 }
@@ -154,16 +150,14 @@ li.renov, li.paint{
 li.dest, li.weld, li.time{
     margin-bottom: 25px;
 }
-
-.truck-dsc ul{
-    margin-right: 100px;
+.truck-dsc h2{
+    text-align: center;
+}
+.truck-dsc p{
+    margin-right: 10px;
+    font-size: 1.1em;
 }
 
-.truck-dsc ul li{
-    margin-bottom: 25px;
-    list-style: none;
-    font-size: 1.2em;
-}
 .truck h1{
     visibility: hidden;
 }
@@ -263,6 +257,18 @@ h4.sells{
     background-color: rgba(0,0,0,0.8);
     width: 700px;
     height: 600px;
+    overflow: auto;
+}
+.dark-desc{
+    margin-top: 15%;
+}
+.dark-desc h2{
+    text-align: center;
+}
+.dark-desc p{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.2em;
 }
 .trucks {
     display: grid;
@@ -464,7 +470,7 @@ form#contact-form{
 
 }
 
-.ctas h1{
+.ctas h2{
     text-transform: lowercase;
 }
 .cta {
@@ -627,26 +633,7 @@ footer p{
 
 
 @media screen and (max-width: 1000px) and (min-width: 700px){
-    .truck-dsc ul li {
-        font-size: 0.9em;
-    }
-    .truck-dsc ul li::before{
-        content: '- '
-    }
 
-    .truck-dsc ul{
-        margin-right: 0;
-    }
-    .dark ul li{
-        font-size: 0.9em;
-    }
-    .dark ul li::before {
-        content: '- ';
-    }
-    .dark ul {
-        margin-left: 0;
-        margin-top: 30px;
-    }
     .top {
         grid-template-areas:
                 "hero hero"
@@ -728,7 +715,7 @@ footer p{
         /*margin-left: 50%;*/
     /*}*/
 
-    .ctas h1{
+    .ctas h2{
         font-size: 0.9em;
     }
     .ctas {
@@ -759,31 +746,31 @@ footer p{
 
 @media screen and (max-width: 1070px) and (min-width: 1000px){
 
-    .social h2 {
-        position: absolute;
-        top: 513%;}
+    /*.social h2 {*/
+        /*position: absolute;*/
+        /*top: 513%;}*/
 
-    .social a img{
-        top: 515%;
-        left: 62%;
-    }
+    /*.social a img{*/
+        /*top: 515%;*/
+        /*left: 62%;*/
+    /*}*/
 }
 
 @media screen and (max-width: 1000px) and (min-width: 880px){
     div.galleria-container.notouch.galleria-theme-classic {
         margin-left: 15%;
     }
-    .social h2 {
-        position: absolute;
-        top: 444%;
-        left: 42%;
+    /*.social h2 {*/
+        /*position: absolute;*/
+        /*top: 444%;*/
+        /*left: 42%;*/
 
-    }
+    /*}*/
 
-    .social a img {
-        top: 450%;
-        left: 62%;
-    }
+    /*.social a img {*/
+        /*top: 450%;*/
+        /*left: 62%;*/
+    /*}*/
 }
 
 
@@ -791,50 +778,31 @@ footer p{
     div.galleria-container.notouch.galleria-theme-classic {
         margin-left: 10%;
     }
-    .social a img{
-        top: 455%;
-        z-index: 999;
-    }
+    /*.social a img{*/
+        /*top: 455%;*/
+        /*z-index: 999;*/
+    /*}*/
 }
 
 @media screen and (max-width: 799px) and (min-width: 700px){
     table.steelBlueCols {
         margin-left: 25%;
     }
-    .social h2 {
-        position: absolute;
-        top: 506%;
-        left: 38%;
-        z-index: -1
-    }
-    .social a img{
-        z-index: -1;
-    }
+    /*.social h2 {*/
+        /*position: absolute;*/
+        /*top: 506%;*/
+        /*left: 38%;*/
+        /*z-index: -1*/
+    /*}*/
+    /*.social a img{*/
+        /*z-index: -1;*/
+    /*}*/
 }
 
 
 
 @media (max-width: 700px) {
-    .truck-dsc ul li {
-        font-size: 0.9em;
-    }
-    .truck-dsc ul li::before{
-        content: '- '
-    }
 
-    .truck-dsc ul{
-        margin-right: 0;
-    }
-    .dark ul li{
-        font-size: 0.9em;
-    }
-    .dark ul li::before {
-        content: '- ';
-    }
-    .dark ul {
-        margin-left: 0;
-        margin-top: 30px;
-    }
     .top {
         grid-template-areas:
                 "hero hero"
@@ -924,7 +892,7 @@ footer p{
         /*margin-left: 50%;*/
     /*}*/
 
-    .ctas h1{
+    .ctas h2{
         font-size: 0.9em;
     }
     .ctas {
@@ -941,11 +909,11 @@ footer p{
     .contact-map{
         margin-left: 20%;
     }
-    .social a img {
-        position: absolute;
-        left: 60%;
-        top: 542%;
-    }
+    /*.social a img {*/
+        /*position: absolute;*/
+        /*left: 60%;*/
+        /*top: 542%;*/
+    /*}*/
 
 
 }
@@ -1014,34 +982,14 @@ footer p{
         margin-left: 0;
     }
 
-    .truck-dsc ul li {
-        font-size: 0.7em;
-    }
-    .truck-dsc ul li::before{
-        content: '- '
-    }
 
-    .truck-dsc ul{
-        margin-right: 0;
-    }
-
-    .dark ul li{
-        font-size: 0.7em;
-    }
-    .dark ul li::before {
-        content: '- ';
-    }
-    .dark ul {
-        margin-left: 0;
-        margin-top: 10px;
-    }
     .hero{
         grid-area: hero;
         min-height: 400px;
         background: #0f0f0f url(img/baner15.png) no-repeat;
         background-size: contain;
     }
-    .ctas h1{
+    .ctas h2{
         font-size: 0.5em;
     }
     .ctas {

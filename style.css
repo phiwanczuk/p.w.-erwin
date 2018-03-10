@@ -21,22 +21,18 @@ img {
 .wrapper {
     grid-area: hero;
     grid-gap: 20px;
-    -ms-grid-area: hero;
-    -ms-grid-gap: 20px;
+
 }
 
 .top {
     display: grid;
-    display: -ms-grid;
     grid-gap: 20px;
-    -ms-grid-gap: 20px;
     grid-template-areas: "hero hero";
-    -ms-grid-template-areas: "hero hero";
+
 }
 
 .hero{
     grid-area: hero;
-    -ms-grid-area: hero;
     min-height: 600px;
     background: #0f0f0f url(img/baner16.png);
     background-size: cover;
@@ -57,12 +53,11 @@ img {
 
 .menu ul {
     display: grid;
-    display: -ms-grid;
     grid-gap: 5px;
-    -ms-grid-gap: 5px;
     padding: 0;
     list-style: none;
     grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+
 }
  .menu a{
     display: block;
@@ -208,6 +203,7 @@ div.galleria-container.notouch.galleria-theme-classic{
 .offers {
     display: grid;
 
+
     grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
 
 }
@@ -280,7 +276,9 @@ h4.sells{
 .trucks {
     display: grid;
     grid-gap: 20px;
+
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+
 }
 .truck{
     clip-path: polygon(0 0%, 100% 0, 100% 94%, 0 100%);
@@ -351,6 +349,7 @@ table.steelBlueCols tfoot .links a{
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fit,minmax(370px, 1fr));
+
 }
 .top-table{
     margin-bottom: 10%;
@@ -431,6 +430,7 @@ form#contact-form{
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
 }
 
 .dark h1{
@@ -577,21 +577,27 @@ footer p{
     }
     .about {
         grid-template-columns: 1fr;
+
     }
     .avant{
         grid-template-columns: 1fr;
+
     }
     .truck{
         grid-template-columns: 1fr;
+
     }
     .gallery{
         grid-template-columns: 1fr;
+
     }
     .pricing{
         grid-template-columns: 1fr;
+
     }
     .contact{
         grid-template-columns: 1fr;
+
     }
     .dark{
         width: 500px;
@@ -607,6 +613,7 @@ footer p{
     }
     .hero{
         grid-area: hero;
+
         min-height: 350px;
         background: #0f0f0f url(img/baner15.png) no-repeat;
         background-size: contain;
@@ -654,27 +661,34 @@ footer p{
 
     .top {
         grid-template-areas:
-                "hero hero"
+                "hero hero";
+
 
     }
     /* About */
     .about {
         grid-template-columns: 1fr;
+
     }
     .avant{
         grid-template-columns: 1fr;
+
     }
     .truck{
         grid-template-columns: 1fr;
+
     }
     .gallery{
         grid-template-columns: 1fr;
+
     }
     .pricing{
         grid-template-columns: 1fr;
+
     }
     .contact{
         grid-template-columns: 1fr;
+
     }
     .dark{
         width: auto;
@@ -688,6 +702,7 @@ footer p{
     }
     .hero{
         grid-area: hero;
+
         min-height: 500px;
         background: #0f0f0f url(img/baner15.png) no-repeat;
         background-size: contain;
@@ -821,9 +836,16 @@ footer p{
 
 @media (max-width: 700px) {
 
+    .contact > p{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+
     .top {
         grid-template-areas:
-                "hero hero"
+                "hero hero";
+
 
     }
     .social a img{
@@ -832,21 +854,27 @@ footer p{
     /* About */
     .about {
         grid-template-columns: 1fr;
+
     }
     .avant{
         grid-template-columns: 1fr;
+
     }
     .truck{
         grid-template-columns: 1fr;
+
     }
     .gallery{
         grid-template-columns: 1fr;
+
     }
     .pricing{
         grid-template-columns: 1fr;
+
     }
     .contact{
         grid-template-columns: 1fr;
+
     }
     .dark{
         width: auto;
@@ -940,7 +968,9 @@ footer p{
 
     .top {
         grid-template-areas:
-                "hero"
+                "hero";
+
+
     }
     .avant-bg {
         min-height: 399px;

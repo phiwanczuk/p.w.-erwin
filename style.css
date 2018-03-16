@@ -59,23 +59,23 @@ img {
     grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
 
 }
- .menu a{
-    display: block;
-    text-decoration: none;
-    padding: 5px;
-    text-align: center;
-    text-transform: lowercase;
-    font-size: 17px;
-     margin-top: 5%;
-     font-weight: bold;
-     color: white;
-     transition: 300ms all ease-in;
-     height: 30px;
-     -webkit-border-radius: 5px;
-     -moz-border-radius: 5px;
-     border-radius: 5px;
+ /*.menu a{*/
+    /*display: block;*/
+    /*text-decoration: none;*/
+    /*padding: 5px;*/
+    /*text-align: center;*/
+    /*text-transform: lowercase;*/
+    /*font-size: 17px;*/
+     /*margin-top: 5%;*/
+     /*font-weight: bold;*/
+     /*color: white;*/
+     /*transition: 300ms all ease-in;*/
+     /*height: 30px;*/
+     /*-webkit-border-radius: 5px;*/
+     /*-moz-border-radius: 5px;*/
+     /*border-radius: 5px;*/
 
-}
+/*}*/
 
 img.opony{
     width: 85%;

@@ -34,7 +34,7 @@ img {
 .hero{
     grid-area: hero;
     min-height: 600px;
-    background: #0f0f0f url(img/baner16.png);
+    background: #0f0f0f url(img/chelm.png);
     background-size: cover;
     background-position: bottom right;
     padding: 50px;
@@ -59,23 +59,23 @@ img {
     grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
 
 }
- /*.menu a{*/
-    /*display: block;*/
-    /*text-decoration: none;*/
-    /*padding: 5px;*/
-    /*text-align: center;*/
-    /*text-transform: lowercase;*/
-    /*font-size: 17px;*/
-     /*margin-top: 5%;*/
-     /*font-weight: bold;*/
-     /*color: white;*/
-     /*transition: 300ms all ease-in;*/
-     /*height: 30px;*/
-     /*-webkit-border-radius: 5px;*/
-     /*-moz-border-radius: 5px;*/
-     /*border-radius: 5px;*/
+ .menu a{
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+    text-transform: lowercase;
+    font-size: 17px;
+     margin-top: 5%;
+     font-weight: bold;
+     color: white;
+     transition: 300ms all ease-in;
+     height: 30px;
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     border-radius: 5px;
 
-/*}*/
+}
 
 img.opony{
     width: 85%;
@@ -208,7 +208,7 @@ div.galleria-container.notouch.galleria-theme-classic{
 
 }
 .sanding::before{
-    content:  url("img/icons/sand-bucket.png" );
+    content:  url("img/icons/piaskowanie.png" );
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -250,7 +250,7 @@ h4.sells{
 
 .avant-bg{
     min-height: 600px;
-    background: #0f0f0f url(img/auto.jpg);
+    background: #0f0f0f url(img/piaskowanie-felg.jpg);
     background-size: cover;
     background-position: bottom right;
     background-color: #122b40;
@@ -492,7 +492,7 @@ form#contact-form{
     text-transform: lowercase;
 }
 .cta {
-    background: url('img/button-off1.png') no-repeat;
+    background: url('img/felgi_.png') no-repeat;
     transition: 300ms all ease-in;
     cursor: pointer;
     height: 112px;
@@ -504,7 +504,7 @@ form#contact-form{
 }
 
 .cta:hover{
-    background: url('img/button-on1.png') no-repeat;
+    background: url('img/felgi.png') no-repeat;
 }
 
 .cta-name{
@@ -615,7 +615,7 @@ footer p{
         grid-area: hero;
 
         min-height: 350px;
-        background: #0f0f0f url(img/baner15.png) no-repeat;
+        background: #0f0f0f url(img/felgi-chelm.png) no-repeat;
         background-size: contain;
     }
 
@@ -629,7 +629,7 @@ footer p{
 
 @media screen and (max-width: 1145px) and (min-width: 1000px){
     .hero{
-        background: #0f0f0f url(img/baner16.png) no-repeat;
+        background: #0f0f0f url(img/chelm.png) no-repeat;
         background-size: contain;
 
     }
@@ -704,7 +704,7 @@ footer p{
         grid-area: hero;
 
         min-height: 500px;
-        background: #0f0f0f url(img/baner15.png) no-repeat;
+        background: #0f0f0f url(img/felgi-chelm.png) no-repeat;
         background-size: contain;
     }
     .sanding::before{
@@ -889,7 +889,7 @@ footer p{
     .hero{
         grid-area: hero;
         min-height: 500px;
-        background: #0f0f0f url(img/baner15.png) no-repeat;
+        background: #0f0f0f url(img/felgi-chelm.png) no-repeat;
         background-size: contain;
     }
     .sanding::before{
@@ -1034,7 +1034,7 @@ footer p{
     .hero{
         grid-area: hero;
         min-height: 400px;
-        background: #0f0f0f url(img/baner15.png) no-repeat;
+        background: #0f0f0f url(img/felgi-chelm.png) no-repeat;
         background-size: contain;
     }
     .ctas h2{
